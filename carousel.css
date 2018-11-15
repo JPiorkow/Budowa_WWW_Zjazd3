@@ -3,10 +3,12 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 3rem;
+  width: 100%; 
+  padding-top: 3.5rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
 }
+
 
 
 /* CUSTOMIZE THE CAROUSEL
@@ -60,9 +62,6 @@ body {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
 }
 
-.featurette-article {
-}
-
 /* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 300;
@@ -90,6 +89,6 @@ body {
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
-	margin-left: 1rem;
+	margin-left: 0rem;
   }
 }
