@@ -7,13 +7,14 @@
     <meta name="author" content="Jarosław Piórkowski">
     <link rel="icon" href="favicon.ico">
 
-    <title>Kontakt</title>
+    <title>Galeria</title>
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
+    <link href="album.css" rel="stylesheet">
   </head>
   <body>
 
@@ -34,11 +35,11 @@
 			<li class="nav-item">
               <a class="nav-link" href="artykuly.html">Artykuły</a>
             </li>
-			<li class="nav-item">
-              <a class="nav-link" href="zdjecia.html">Zdjecia</a>
-            </li>
 			<li class="nav-item active">
-              <a class="nav-link" href="kontakt.html">Kontakt<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="zdjecia.html">Zdjecia<span class="sr-only">(current)</span></a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link" href="kontakt.html">Kontakt</a>
             </li>
           </ul>
           <form class="form-inline mt-2 mt-md-0">
@@ -50,29 +51,81 @@
     </header>
 
 	<!-- MAIN -->
-	
+
     <main role="main">
 
-        <div class="container pt-4">
-          <div class="jumbotron">
-            <h1 class="heading">Kontakt<br></h1>
-            <p class="lead">
-				<br>Jarosław Piórkowski
-				<br> &#60adres>
-				<br> &#60numer telefonu>
-			</p>
-			</div>
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">Album</h1>
+          <p class="lead text-muted">Jakiś tekst, który nam mówi co jest na stronie.</p>
+		  <a class="nav-link" href="zdjecia2.html">
+			<button type="button" class="btn btn-secondary btn-sm">Wersja alternatywna</button>
+		  </a>
         </div>
+      </section>
 
-      </div><!-- /.container -->
+      <div class="album py-5 bg-light">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+				<a target="_blank" href="photo/gallery1.jpg">
+					<img class="card-img-top" src="photo/gallery1.jpg" alt="Card image cap" style="object-fit:cover;">
+				</a>
+                <div class="card-body">
+                  <div class="container">
+					<p class="float-right">Andrzej Wróblewski</p>
+					<p>1949</p>
+					</div>
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+				<a target="_blank" href="photo/gallery2.jpg">
+					<img class="card-img-top" src="photo/gallery2.jpg" alt="Card image cap" style="object-fit:cover;">
+                </a>
+				<div class="card-body">
+                  <div class="container">
+					<p class="float-right">Aleksander Gierymski</p>
+					<p>1880-1881</p>
+				  </div>
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+				<a target="_blank" href="photo/gallery3.jpg">
+					<img class="card-img-top" src="photo/gallery3.jpg" alt="Card image cap" style="object-fit:cover;">
+                </a>
+				<div class="card-body">
+                  <div class="container">
+					<p class="float-right">Van Gogh</p>
+					<p>1887</p>
+				  </div>
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 	
-	
-	  <!-- FOOTER -->
+	<!-- FOOTER -->
       <footer class="container">
         <p class="float-right"><a href="#">Do góry</a></p>
         <p>&copy; 2018 Jarosław Piórkowski, Inc. &middot; <a href="#">Prywatność</a> &middot; <a href="#">Warunki</a></p>
       </footer>
+	
     </main>
+	
+	
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
